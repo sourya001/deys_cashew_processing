@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+html {
+  color-scheme: light;
+}
+
+body {
+  @apply min-h-screen bg-stone-50 text-stone-800 antialiased;
+}
+
+a {
+  @apply text-amber-700 font-medium underline-offset-2 hover:text-amber-800 hover:underline;
+}
