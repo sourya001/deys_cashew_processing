@@ -14,7 +14,7 @@ export const products: Product[] = [
     name: 'White Wholes 180 (W180)',
     imageUrl:
       'src/assets/products/white-wholes-180.jpg',
-    minOrderQty: '50 kg',
+    minOrderQty: '10 kg',
     category: 'Cashew Kernels',
     description: 'Premium Grade Giant White Whole Cashews (W170–180) – 375–395 Kernels per Kg | Extra Large Size | Superior Quality',
     featured: true,
@@ -24,7 +24,7 @@ export const products: Product[] = [
     name: 'White Wholes 210 (W210)',
     imageUrl:
       'src/assets/products/white-wholes-210.jpg',
-    minOrderQty: '100 kg',
+    minOrderQty: '10 kg',
     category: 'Cashew Kernels',
     description: 'Premium Grade Jumbo White Whole Cashews (W200–210) – 440–465 Kernels per Kg | Large Size | Export Quality',
     featured: true,
@@ -34,7 +34,7 @@ export const products: Product[] = [
     name: 'White Wholes 240 (W240)',
     imageUrl:
       'src/assets/products/white-wholes-240.jpg',
-    minOrderQty: '1 MT',
+    minOrderQty: '10 kg',
     category: 'Cashew Kernels',
     description: 'Premium Grade White Whole Cashews (W220–240) – 485–530 Kernels per Kg | Larger Than Standard Size | Rich Taste & Superior Quality.',
     featured: true,
@@ -44,7 +44,7 @@ export const products: Product[] = [
     name: 'White Wholes 320 (W320)',
     imageUrl:
       'src/assets/products/white-wholes-320.jpg',
-    minOrderQty: '25 kg',
+    minOrderQty: '10 kg',
     category: 'Cashew Kernels',
     description: 'Premium Grade White Whole Cashews (W320) – 580–610 Kernels per Kg | Larger Than Standard Size | Rich Taste & Superior Quality.',
     featured: true,
@@ -54,7 +54,7 @@ export const products: Product[] = [
     name: 'Splits',
     imageUrl:
       'src/assets/products/splits.jpg',
-    minOrderQty: '50 kg',
+    minOrderQty: '10 kg',
     category: 'Cashew Kernels',
     description: 'Premium Cashew Halves – Same Rich Taste as Whole Cashews | Perfect for Cooking & Bulk Use.',
     featured: true,
@@ -64,7 +64,7 @@ export const products: Product[] = [
     name: 'K',
     imageUrl:
       'src/assets/products/K.jpg',
-    minOrderQty: '50 kg',
+    minOrderQty: '10 kg',
     category: 'Cashew Kernels',
     description: 'Premium Cashew Quarter Pieces – Uniform 1/4 Cuts | Ideal for Sweets, Bakery & Namkeen',
     featured: true,
@@ -74,7 +74,7 @@ export const products: Product[] = [
     name: 'Baby Bits',
     imageUrl:
       'src/assets/products/Cashew-Baby-Bites.jpg',
-    minOrderQty: '50 kg',
+    minOrderQty: '10 kg',
     category: 'Cashew Kernels',
     description: 'High-Quality Cashew Baby Bits – Small Granules | Ideal for Ice Cream, Chocolates, Bakery & Sweet Preparations',
     featured: true,
