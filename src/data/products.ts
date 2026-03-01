@@ -2,7 +2,7 @@ import white180 from '../assets/products/white-wholes-180.jpg'
 import white210 from '../assets/products/white-wholes-210.jpg'
 import white240 from '../assets/products/white-wholes-240.jpg'
 import white320 from '../assets/products/white-wholes-320.jpg'
-import splits from '../assets/products/splits.jpg'
+import splits from '../assets/products/Splits.jpg'
 import k from '../assets/products/K.jpg'
 import babyBits from '../assets/products/Cashew-Baby-Bites.jpg'
 
