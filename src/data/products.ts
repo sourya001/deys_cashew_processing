@@ -67,6 +67,16 @@ export const products: Product[] = [
     minOrderQty: '50 kg',
     category: 'Cashew Kernels',
     description: 'Premium Cashew Quarter Pieces – Uniform 1/4 Cuts | Ideal for Sweets, Bakery & Namkeen',
-    featured: false,
+    featured: true,
+  },
+   {
+    id: 7,
+    name: 'Baby Bits',
+    imageUrl:
+      'src/assets/products/Cashew-Baby-Bites.jpg',
+    minOrderQty: '50 kg',
+    category: 'Cashew Kernels',
+    description: 'High-Quality Cashew Baby Bits – Small Granules | Ideal for Ice Cream, Chocolates, Bakery & Sweet Preparations',
+    featured: true,
   },
 ]
