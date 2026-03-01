@@ -8,7 +8,7 @@ export const Footer = () => {
   return (
     <footer className="border-t border-stone-200 bg-white">
       <div className="mx-auto max-w-6xl px-4 py-8 sm:px-6 lg:px-8">
-        <div className="flex flex-col gap-6 sm:flex-row sm:items-start sm:justify-between">
+        <div className="grid gap-8 sm:grid-cols-2">
           <div>
             <h3 className="text-base font-semibold text-stone-800">
               {siteContent.companyName}
@@ -16,13 +16,17 @@ export const Footer = () => {
             <p className="mt-1 text-sm text-stone-600">{siteContent.tagline}</p>
           </div>
           <div className="text-sm text-stone-600">
-            <p>
+            <p className="mb-3">
+              <span className="font-medium text-stone-700">Address:</span>{' '}
+              <span className="text-stone-600">Ground Floor, Arya Dey, Primary School, C/O, Rani Basan, Contai, West Bengal 721433</span>
+            </p>
+            <p className="mb-3">
               <span className="font-medium text-stone-700">Phone:</span>{' '}
               <a href={`tel:${contactInfo.phone}`} className="text-amber-700 hover:underline">
                 {contactInfo.phone}
               </a>
             </p>
-            <p className="flex items-center gap-2">
+            <p className="mb-3 flex items-center gap-2">
               <span className="font-medium text-stone-700">WhatsApp:</span>{' '}
               <a
                 href={`https://wa.me/${contactInfo.whatsapp}`}
